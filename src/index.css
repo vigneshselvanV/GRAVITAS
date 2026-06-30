@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-urgency-critical: #FF2D2D;
+  --color-urgency-high: #FF8C00;
+  --color-urgency-medium: #FFD700;
+  --color-urgency-low: #00C853;
+  
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  @apply bg-zinc-950 text-zinc-100 font-mono antialiased;
+}
+
+@layer utilities {
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 0;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+* {
+  scrollbar-color: black transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply tracking-tight uppercase font-bold;
+}
+
+input, textarea, button {
+  @apply font-mono outline-none;
+}
