@@ -104,7 +104,7 @@ npm run dev
 ---
 
 ## Live Demo
-Deployed link: [[https://ais-pre-3qxaox47mmkm7vukun7ia6-525033774835.asia-east1.run.app](https://ais-pre-3qxaox47mmkm7vukun7ia6-525033774835.asia-east1.run.app)](https://gravitas-960987036807.us-west1.run.app)
+Deployed link: (https://ais-pre-3qxaox47mmkm7vukun7ia6-525033774835.asia-east1.run.app)](https://gravitas-960987036807.us-west1.run.app)
 
 ---
 
